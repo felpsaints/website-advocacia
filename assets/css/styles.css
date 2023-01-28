@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    background: #fff;
+}
+
+h1, h2, h3 ,h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 5.5rem;
+}
+h3 {
+    font-size: 5rem;
+}
+h4 {
+    font-size: 4.5rem;
+}
+h5 {
+    font-size: 4rem;
+}
+h6 {
+    font-size: 3.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-viewport {
+    min-height: 100vh;
+}
+
+/*Menu*/
+
+.menu {
+    border-bottom: 2px solid #7c800d;
+    background-color: #063950 !important;
+    color: #fff;
+    width: 100%;
+}
+
+.nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+.menu h1 {
+    font-size: 2.3rem;
+}
+
+.menu h1 a{
+    color: inherit;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.menu ul li a {
+    display: block;    
+    padding: 2rem;
+    font-size: 1.8rem;
+    position: relative;
+    color: #fff;
+}
+
+/*Primeira Sessão - Botão e informação principal*/
+
+.s-container {
+    /*background-color: #173c4d;
+    background-size: cover;*/
+    background-image: linear-gradient(to bottom, transparent 0%, #063950 99%), url(/assets/img/bg-test.svg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #7c800d;
+
+}
+.s-container h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    color: #fefefe;
+    padding-bottom: 25px;
+}
+.s-container h3 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 30px;
+    color: #fefefe;
+}
+
+.button-whatsapp {
+    background-color: #008CBA;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 2px solid #063950;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    width: 280px;
+    height: 65px;
+    align-items: center;
+    /*margin-left: 42%;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.button-whatsapp:hover {
+    background-color: #59caef;
+    color: #000000;
+}
+
+/*Segunda Sessão - Sobre*/
+
+
+.aa-container {
+    display: flex;
+    align-items: center;
+    background-color: #063950;
+    padding: 0 15px 0 15px;
+    border-bottom: 1px solid #7c800d;
+
+}
+
+.text-sec2 {
+   margin: 30px 25px 30px 25px;
+
+}
+
+.text-sec2 p{
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+    display: flex;
+
+}
+
+.text-sec2 h1 {
+    color: #7c800d;
+    text-align: justify;
+    
+}
+
+/*Terceira Sessão - Area de Atuação*/
+
+.m-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #063950;
+    border-bottom: 1px solid #7c800d;
+}
+
+.m-container h2{
+    font-size: 65px;
+    color: #7c800d;
+    padding-bottom: 80px;
+}
+
+.icones-config {
+    display: flex;
+    text-align: center;
+}
+
+.m-container h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+
